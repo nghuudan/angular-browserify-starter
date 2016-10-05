@@ -1,1 +1,1 @@
-# angular-browserify-starter
+# Angular Browserify Starter

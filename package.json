@@ -1,0 +1,44 @@
+{
+  "name": "angular-browserify-starter",
+  "version": "0.1.0",
+  "description": "Starter project for AngularJS with Browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "clean": "rimraf build && mkdir build",
+    "build": "npm run clean && browserify index.js -d -g uglifyify -t babelify -t browserify-ngannotate | exorcist build/app.bundle.js.map > build/app.bundle.js",
+    "watch": "npm run clean && watchify index.js -d -v -t babelify -o build/app.bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghuudan/angular-browserify-starter.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "browserify",
+    "starter"
+  ],
+  "author": "Dan Nguyen <nghuudan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nghuudan/angular-browserify-starter/issues"
+  },
+  "homepage": "https://github.com/nghuudan/angular-browserify-starter#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "browserify-ngannotate": "^2.0.0",
+    "exorcist": "^0.4.0",
+    "lite-server": "^2.2.2",
+    "rimraf": "^2.5.4",
+    "uglifyify": "^3.0.3",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^1.0.0-beta.3"
+  }
+}
