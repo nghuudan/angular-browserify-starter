@@ -6,7 +6,7 @@ import AppComponent from './components/app/app.component';
 import DemoComponent from './components/demo/demo.component';
 import HomeComponent from './components/home/home.component';
 import MenuComponent from './components/menu/menu.component';
-import HelloService from './services/hello.service';
+import HelloService from './services/hello/hello.service';
 
 export const AppModule = angular.module('App', ['ui.router'])
 	.config(AppConfig)
