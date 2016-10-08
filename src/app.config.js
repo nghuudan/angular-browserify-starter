@@ -15,14 +15,17 @@ export const AppConfig = ($locationProvider, $stateProvider, $urlRouterProvider)
 		.state({
 			name: 'demo',
 			url: '/demo',
-			component: 'dnDemo'
+			component: 'dnDemo',
+			resolve: {
+				demoList: (DemoService) => DemoService.getDemoList()
+			}
 		})
 		.state({
 			name: 'demoChosen',
 			url: '/demo/{demoId}',
 			component: 'dnDemo',
 			resolve: {
-				chosenId: ($stateParams, $timeout) => $timeout(() => $stateParams.demoId, 200)
+				chosenDemo: (DemoService, $stateParams) => DemoService.getDemoById($stateParams.demoId)
 			}
 		});
 

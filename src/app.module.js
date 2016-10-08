@@ -7,6 +7,7 @@ import DemoComponent from './components/demo/demo.component';
 import HomeComponent from './components/home/home.component';
 import MenuComponent from './components/menu/menu.component';
 import HelloService from './services/hello/hello.service';
+import DemoService from './services/demo/demo.service';
 
 export const AppModule = angular.module('App', ['ui.router'])
 	.config(AppConfig)
@@ -15,6 +16,7 @@ export const AppModule = angular.module('App', ['ui.router'])
 	.component('dnDemo', DemoComponent)
 	.component('dnHome', HomeComponent)
 	.component('dnMenu', MenuComponent)
+	.service('DemoService', DemoService)
 	.service('HelloService', HelloService);
 
 export default AppModule;
