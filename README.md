@@ -18,6 +18,7 @@ This is a starting point for creating single-page web applications with [Angular
 * `npm run clean`: Deletes and creates the build directory
 * `npm run watch`: Watches code and builds automatically for development
 * `npm start`: Runs the application in your default browser
+* `npm test`: Runs the [karma-jasmine](https://www.npmjs.com/package/karma-jasmine) unit tests
 
 ## Directory Structure
 * build/
@@ -32,5 +33,7 @@ This is a starting point for creating single-page web applications with [Angular
 			* name.service.js
 	* app.config.js
 	* app.module.js
+* test/
+	* app.module.spec.js
 * index.html
 * index.js
