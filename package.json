@@ -1,6 +1,6 @@
 {
   "name": "angular-browserify-starter",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Starter project for AngularJS with Browserify",
   "main": "index.js",
   "scripts": {
