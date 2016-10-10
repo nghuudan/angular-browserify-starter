@@ -31,11 +31,11 @@ describe('AppModule', function() {
 		}));
 
 		it('should set title', function() {
-			expect($ctrl.title).not.toBe(undefined);
+			expect($ctrl.title).toBeDefined();
 		});
 
 		it('should set menu', function() {
-			expect($ctrl.menu).not.toBe(undefined);
+			expect($ctrl.menu).toBeDefined();
 		});
 
 		it('should get and set message from promise', function() {
