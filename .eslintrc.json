@@ -3,12 +3,20 @@
         "browser": true,
         "commonjs": true,
         "es6": true,
+        "jasmine": true,
         "node": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+        "eslint:recommended",
+        "plugin:jasmine/recommended"
+    ],
+    "globals": {
+        "inject": true
+    },
     "parserOptions": {
         "sourceType": "module"
     },
+    "plugins": ["jasmine"],
     "rules": {
         "indent": [
             "error",

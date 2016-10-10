@@ -14,7 +14,7 @@ describe('HelloService', function() {
 			messageValue = message;
 		});
 
-		deferred.resolve(mockMessageValue)
+		deferred.resolve(mockMessageValue);
 
 		$rootScope.$apply();
 

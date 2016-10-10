@@ -11,13 +11,11 @@ describe('AppModule', function() {
 
 	describe('AppCtrl', function() {
 		var $ctrl;
-		var $q;
 		var $scope;
 		var deferred;
 		var HelloService;
 
 		beforeEach(inject(function(_$q_, _$rootScope_, _HelloService_) {
-			$q = _$q_;
 			$scope = _$rootScope_.$new();
 			deferred = _$q_.defer();
 			HelloService = _HelloService_;
