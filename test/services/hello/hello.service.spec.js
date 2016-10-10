@@ -5,7 +5,6 @@ describe('HelloService', function() {
 
 	it('should get message and return promise', inject(function($q, $rootScope, HelloService) {
 		var deferred = $q.defer();
-		var promise = deferred.promise;
 		var messageValue;
 		var mockMessageValue = 'Hello, World!';
 
