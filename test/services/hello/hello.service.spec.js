@@ -19,6 +19,6 @@ describe('HelloService', function() {
 
 		$rootScope.$apply();
 
-		expect(messageValue).toBeDefined(mockMessageValue);
+		expect(messageValue).toBe(mockMessageValue);
 	}));
 });
