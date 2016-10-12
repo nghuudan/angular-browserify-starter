@@ -31,6 +31,7 @@ This is a starting point for creating single-page web applications with [Angular
 	* services/
 		* model-name/
 			* name.service.js
+		* app.services.module.js
 	* app.config.js
 	* app.module.js
 * test/
