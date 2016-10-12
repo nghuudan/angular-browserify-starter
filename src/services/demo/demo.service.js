@@ -21,14 +21,18 @@ export default class DemoService {
 			}
 		];
 	}
-	getDemoList() {
-		return this.$timeout(() => this.demoList, 200);
-	}
-	getDemoById(demoId) {
+	_findDemoById(demoId) {
 		var id = parseInt(demoId, 10);
 		var result = this.demoList.filter(demo => {
 			return demo.id === id;
 		});
-		return this.$timeout(() => result[0], 200);
+		return result[0];
+	}
+	getDemoList() {
+		return this.$timeout(() => this.demoList, 200);
+	}
+	getDemoById(demoId) {
+		var demo = this._findDemoById(demoId);
+		return this.$timeout(() => demo, 200);
 	}
 }

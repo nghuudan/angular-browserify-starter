@@ -1,7 +1,7 @@
 describe('HelloService', function() {
 	'use strict';
 
-	beforeEach(module('App'));
+	beforeEach(module('AppServices'));
 
 	it('should get message and return promise', inject(function($q, $rootScope, HelloService) {
 		var deferred = $q.defer();

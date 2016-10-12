@@ -6,17 +6,14 @@ import AppComponent from './components/app/app.component';
 import DemoComponent from './components/demo/demo.component';
 import HomeComponent from './components/home/home.component';
 import MenuComponent from './components/menu/menu.component';
-import HelloService from './services/hello/hello.service';
-import DemoService from './services/demo/demo.service';
+import './services/app.services.module';
 
-export const AppModule = angular.module('App', ['ui.router'])
+export const AppModule = angular.module('App', ['ui.router', 'AppServices'])
 	.config(AppConfig)
 	.controller('AppCtrl', AppCtrl)
 	.component('dnApp', AppComponent)
 	.component('dnDemo', DemoComponent)
 	.component('dnHome', HomeComponent)
-	.component('dnMenu', MenuComponent)
-	.service('DemoService', DemoService)
-	.service('HelloService', HelloService);
+	.component('dnMenu', MenuComponent);
 
 export default AppModule;
