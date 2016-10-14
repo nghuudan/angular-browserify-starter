@@ -17,8 +17,8 @@ This is a starting point for creating single-page web applications with [Angular
 * `npm run build`: Creates a minified single file bundle and source map
 * `npm run clean`: Deletes and creates the build directory
 * `npm run esdoc`: Creates API documentation with [ESDoc](https://esdoc.org)
-* `npm run watch`: Watches code and builds automatically for development
-* `npm start`: Runs the application in your default browser
+* `npm run watch`: Watches code and builds automatically (for development only)
+* `npm start`: Runs the application in your default browser (for development only)
 * `npm test`: Runs the [karma-jasmine](https://www.npmjs.com/package/karma-jasmine) unit tests
 
 ## Directory Structure
