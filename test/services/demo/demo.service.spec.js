@@ -13,14 +13,14 @@ describe('DemoService', function() {
 		DemoService = _DemoService_;
 	}));
 
-	it('should set demoList', function() {
-		expect(DemoService.demoList).toBeDefined();
+	it('should define demoList', function() {
+		expect(DemoService._demoList).toBeDefined();
 	});
 
 	it('should get demoList and return promise', function() {
 		var deferred = $q.defer();
 		var deferredDemoList;
-		var demoList = DemoService.demoList;
+		var demoList = DemoService._demoList;
 
 		spyOn(DemoService, 'getDemoList').and.returnValue(deferred.promise);
 
@@ -39,7 +39,7 @@ describe('DemoService', function() {
 		var demo = DemoService._findDemoById(0);
 		expect(demo).toBeUndefined();
 		demo = DemoService._findDemoById(1);
-		expect(demo).toBe(DemoService.demoList[0]);
+		expect(demo).toBe(DemoService._demoList[0]);
 	});
 
 	it('should get demo by id and return promise', function() {

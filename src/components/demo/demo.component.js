@@ -1,3 +1,4 @@
+/** @type {Object} */
 export const DemoComponent = {
 	bindings: {
 		chosenDemo: '<',

@@ -3,10 +3,14 @@ describe('HelloService', function() {
 
 	beforeEach(module('AppServices'));
 
+	it('should define message', inject(function(HelloService) {
+		expect(HelloService._message).toBeDefined();
+	}));
+
 	it('should get message and return promise', inject(function($q, $rootScope, HelloService) {
 		var deferred = $q.defer();
 		var messageValue;
-		var mockMessageValue = 'Hello, World!';
+		var mockMessageValue = HelloService._message;
 
 		spyOn(HelloService, 'getMessage').and.returnValue(deferred.promise);
 

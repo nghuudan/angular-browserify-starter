@@ -8,7 +8,8 @@
     "start": "lite-server",
     "clean": "rimraf build && mkdir build",
     "build": "npm run clean && browserify index.js -d -g uglifyify -t babelify -t browserify-ngannotate | exorcist build/app.bundle.js.map > build/app.bundle.js",
-    "watch": "npm run clean && watchify index.js -d -v -t babelify -o build/app.bundle.js"
+    "watch": "npm run clean && watchify index.js -d -v -t babelify -o build/app.bundle.js",
+    "esdoc": "rimraf esdoc && esdoc -c esdoc.json"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "babelify": "^7.3.0",
     "browserify": "^13.1.0",
     "browserify-ngannotate": "^2.0.0",
+    "esdoc": "^0.4.8",
     "eslint": "^3.7.1",
     "eslint-plugin-jasmine": "^1.8.1",
     "exorcist": "^0.4.0",

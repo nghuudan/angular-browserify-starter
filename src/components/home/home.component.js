@@ -1,3 +1,4 @@
+/** @type {Object} */
 export const HomeComponent = {
 	bindings: {
 		message: '<'

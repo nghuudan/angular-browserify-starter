@@ -1,9 +1,17 @@
+/**
+ * Service for the demo list
+ */
 export default class DemoService {
-	//@ngInject
+	/**
+	 * @ngInject
+	 * constructor - Injects the $timeout service from Angular
+	 *
+	 * @param  {Service} $timeout Angular service for timeouts
+	 */
 	constructor($timeout) {
-		this.$timeout = $timeout;
+		this._$timeout = $timeout;
 
-		this.demoList = [
+		this._demoList = [
 			{
 				id: 1,
 				name: 'Demo Name 1',
@@ -21,18 +29,38 @@ export default class DemoService {
 			}
 		];
 	}
+
+	/**
+	 * Finds the demo by id in the demoList
+	 *
+	 * @param  {Number} demoId	id of the demo to find
+	 * @return {Object}			demo with the matching id
+	 */
 	_findDemoById(demoId) {
 		var id = parseInt(demoId, 10);
-		var result = this.demoList.filter(demo => {
+		var result = this._demoList.filter(demo => {
 			return demo.id === id;
 		});
 		return result[0];
 	}
+
+	/**
+	 * Gets the demoList and returns a promise
+	 *
+	 * @return {Promise}		promise with the demoList
+	 */
 	getDemoList() {
-		return this.$timeout(() => this.demoList, 200);
+		return this._$timeout(() => this._demoList, 200);
 	}
+
+	/**
+	 * Gets a demo by id and returns a promise
+	 *
+	 * @param  {Number} demoId	id of the demo to get
+	 * @return {Promise}		promise with the demo
+	 */
 	getDemoById(demoId) {
 		var demo = this._findDemoById(demoId);
-		return this.$timeout(() => demo, 200);
+		return this._$timeout(() => demo, 200);
 	}
 }

@@ -28,12 +28,16 @@ describe('AppModule', function() {
 			});
 		}));
 
-		it('should set title', function() {
+		it('should define title', function() {
 			expect($ctrl.title).toBeDefined();
 		});
 
-		it('should set menu', function() {
+		it('should define menu', function() {
 			expect($ctrl.menu).toBeDefined();
+		});
+
+		it('should define and set message to null', function() {
+			expect($ctrl.message).toBeNull();
 		});
 
 		it('should get and set message from promise', function() {

@@ -1,3 +1,4 @@
+/** @type {Object} */
 export const AppComponent = {
 	controller: 'AppCtrl',
 	controllerAs: 'app',
