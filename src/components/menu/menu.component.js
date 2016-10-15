@@ -1,4 +1,7 @@
-/** @type {Object} */
+/**
+ * Component for the main menu
+ * @type {Object}
+ */
 export const MenuComponent = {
 	bindings: {
 		list: '<'

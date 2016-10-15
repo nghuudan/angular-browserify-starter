@@ -8,7 +8,10 @@ import HomeComponent from './components/home/home.component';
 import MenuComponent from './components/menu/menu.component';
 import './services/app.services.module';
 
-/** @type {Module} */
+/**
+ * Main module for the application
+ * @type {Module}
+ */
 export const AppModule = angular.module('App', ['ui.router', 'AppServices'])
 	.config(AppConfig)
 	.controller('AppCtrl', AppCtrl)

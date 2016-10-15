@@ -1,4 +1,7 @@
-/** @type {Object} */
+/**
+ * Main component for the application
+ * @type {Object}
+ */
 export const AppComponent = {
 	controller: 'AppCtrl',
 	controllerAs: 'app',

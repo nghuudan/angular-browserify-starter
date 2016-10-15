@@ -1,4 +1,9 @@
-/** @type {Function} */
+/**
+ * Configuration for the application
+ * @param {Provider} $locationProvider  Angular location provider
+ * @param {Provider} $stateProvider     UI Router state provider
+ * @param {Provider} $urlRouterProvider UI Router url router provider
+ */
 export const AppConfig = ($locationProvider, $stateProvider, $urlRouterProvider) => {
 	'ngInject';
 

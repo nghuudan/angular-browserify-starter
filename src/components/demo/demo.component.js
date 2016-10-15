@@ -1,4 +1,7 @@
-/** @type {Object} */
+/**
+ * Component for the demo page
+ * @type {Object}
+ */
 export const DemoComponent = {
 	bindings: {
 		chosenDemo: '<',
