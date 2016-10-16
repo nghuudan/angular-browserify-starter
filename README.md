@@ -21,6 +21,9 @@ This is a starting point for creating single-page web applications with [Angular
 * `npm start`: Runs the application in your default browser (for development only)
 * `npm test`: Runs the [karma-jasmine](https://www.npmjs.com/package/karma-jasmine) unit tests
 
+## API Documentation
+* [ESDoc Example](https://nghuudan.github.io/angular-browserify-starter/)
+
 ## Directory Structure
 * build/
 	* app.bundle.js
