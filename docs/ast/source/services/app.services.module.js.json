@@ -1,0 +1,725 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "angular",
+            "range": [
+              7,
+              14
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 14
+              }
+            }
+          },
+          "range": [
+            7,
+            14
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 7
+            },
+            "end": {
+              "line": 1,
+              "column": 14
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "angular",
+        "raw": "'angular'",
+        "range": [
+          20,
+          29
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 20
+          },
+          "end": {
+            "line": 1,
+            "column": 29
+          }
+        }
+      },
+      "range": [
+        0,
+        30
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "DemoService",
+            "range": [
+              38,
+              49
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 7
+              },
+              "end": {
+                "line": 2,
+                "column": 18
+              }
+            }
+          },
+          "range": [
+            38,
+            49
+          ],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 7
+            },
+            "end": {
+              "line": 2,
+              "column": 18
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./demo/demo.service",
+        "raw": "'./demo/demo.service'",
+        "range": [
+          55,
+          76
+        ],
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 24
+          },
+          "end": {
+            "line": 2,
+            "column": 45
+          }
+        }
+      },
+      "range": [
+        31,
+        77
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "HelloService",
+            "range": [
+              85,
+              97
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 7
+              },
+              "end": {
+                "line": 3,
+                "column": 19
+              }
+            }
+          },
+          "range": [
+            85,
+            97
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "end": {
+              "line": 3,
+              "column": 19
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./hello/hello.service",
+        "raw": "'./hello/hello.service'",
+        "range": [
+          103,
+          126
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      },
+      "range": [
+        78,
+        127
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 49
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Module for all the services\n * @type {Module}\n ",
+          "range": [
+            129,
+            185
+          ],
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "AppServicesModule",
+              "range": [
+                199,
+                216
+              ],
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 13
+                },
+                "end": {
+                  "line": 9,
+                  "column": 30
+                }
+              }
+            },
+            "init": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                          "type": "Identifier",
+                          "name": "angular",
+                          "range": [
+                            219,
+                            226
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 9,
+                              "column": 33
+                            },
+                            "end": {
+                              "line": 9,
+                              "column": 40
+                            }
+                          }
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "module",
+                          "range": [
+                            227,
+                            233
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 9,
+                              "column": 41
+                            },
+                            "end": {
+                              "line": 9,
+                              "column": 47
+                            }
+                          }
+                        },
+                        "range": [
+                          219,
+                          233
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 9,
+                            "column": 33
+                          },
+                          "end": {
+                            "line": 9,
+                            "column": 47
+                          }
+                        }
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "value": "AppServices",
+                          "raw": "'AppServices'",
+                          "range": [
+                            234,
+                            247
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 9,
+                              "column": 48
+                            },
+                            "end": {
+                              "line": 9,
+                              "column": 61
+                            }
+                          }
+                        },
+                        {
+                          "type": "ArrayExpression",
+                          "elements": [],
+                          "range": [
+                            249,
+                            251
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 9,
+                              "column": 63
+                            },
+                            "end": {
+                              "line": 9,
+                              "column": 65
+                            }
+                          }
+                        }
+                      ],
+                      "range": [
+                        219,
+                        252
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 9,
+                          "column": 33
+                        },
+                        "end": {
+                          "line": 9,
+                          "column": 66
+                        }
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "service",
+                      "range": [
+                        255,
+                        262
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 10,
+                          "column": 9
+                        }
+                      }
+                    },
+                    "range": [
+                      219,
+                      262
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 9,
+                        "column": 33
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 9
+                      }
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "DemoService",
+                      "raw": "'DemoService'",
+                      "range": [
+                        263,
+                        276
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 10
+                        },
+                        "end": {
+                          "line": 10,
+                          "column": 23
+                        }
+                      }
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "DemoService",
+                      "range": [
+                        278,
+                        289
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 25
+                        },
+                        "end": {
+                          "line": 10,
+                          "column": 36
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    219,
+                    290
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 9,
+                      "column": 33
+                    },
+                    "end": {
+                      "line": 10,
+                      "column": 37
+                    }
+                  }
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "service",
+                  "range": [
+                    293,
+                    300
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 11,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 11,
+                      "column": 9
+                    }
+                  }
+                },
+                "range": [
+                  219,
+                  300
+                ],
+                "loc": {
+                  "start": {
+                    "line": 9,
+                    "column": 33
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 9
+                  }
+                }
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "HelloService",
+                  "raw": "'HelloService'",
+                  "range": [
+                    301,
+                    315
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 11,
+                      "column": 10
+                    },
+                    "end": {
+                      "line": 11,
+                      "column": 24
+                    }
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "name": "HelloService",
+                  "range": [
+                    317,
+                    329
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 11,
+                      "column": 26
+                    },
+                    "end": {
+                      "line": 11,
+                      "column": 38
+                    }
+                  }
+                }
+              ],
+              "range": [
+                219,
+                330
+              ],
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 33
+                },
+                "end": {
+                  "line": 11,
+                  "column": 39
+                }
+              }
+            },
+            "range": [
+              199,
+              330
+            ],
+            "loc": {
+              "start": {
+                "line": 9,
+                "column": 13
+              },
+              "end": {
+                "line": 11,
+                "column": 39
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          193,
+          331
+        ],
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 40
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Module for all the services\n * @type {Module}\n ",
+            "range": [
+              129,
+              185
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 0
+              },
+              "end": {
+                "line": 8,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        186,
+        331
+      ],
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 40
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Module for all the services\n * @type {Module}\n ",
+          "range": [
+            129,
+            185
+          ],
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "Identifier",
+        "name": "AppServicesModule",
+        "range": [
+          348,
+          365
+        ],
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 15
+          },
+          "end": {
+            "line": 13,
+            "column": 32
+          }
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "range": [
+        333,
+        366
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 33
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    366
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 13,
+      "column": 33
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * Module for all the services\n * @type {Module}\n ",
+      "range": [
+        129,
+        185
+      ],
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 3
+        }
+      }
+    }
+  ]
+}

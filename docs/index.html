@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <a data-ice="repoURL" href="https://github.com/nghuudan/angular-browserify-starter" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AppModule">AppModule</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">components/app</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/app/app.controller.js~AppCtrl.html">AppCtrl</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AppComponent">AppComponent</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">components/demo</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DemoComponent">DemoComponent</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">components/home</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-HomeComponent">HomeComponent</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">components/menu</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MenuComponent">MenuComponent</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">services</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AppServicesModule">AppServicesModule</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">services/demo</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/services/demo/demo.service.js~DemoService.html">DemoService</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">services/hello</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/services/hello/hello.service.js~HelloService.html">HelloService</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="angular-browserify-starter">Angular Browserify Starter</h1>
+<p>This is a starting point for creating single-page web applications with <a href="https://angularjs.org">AngularJS</a> 1.5+ and <a href="http://browserify.org">Browserify</a>, which combines all your code and the required libraries into a single file bundle.</p>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li><a href="https://nodejs.org">Node.js</a></li>
+<li>Basic knowledge of ES2015/ES6 (arrow functions, classes, and modules)</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<ol>
+<li>Download and install <a href="https://nodejs.org">Node.js</a></li>
+<li>Clone or fork this repository</li>
+<li>In Terminal or Command Prompt, go to your clone directory</li>
+<li>Enter <code>npm install</code> to install all the dependencies from NPM</li>
+<li>Enter <code>npm run build</code> to build the file bundle for the application</li>
+<li>Enter <code>npm start</code> to run the application in your default browser</li>
+</ol>
+<h2 id="npm-scripts">NPM Scripts</h2>
+<ul>
+<li><code>npm run build</code>: Creates a minified single file bundle and source map</li>
+<li><code>npm run clean</code>: Deletes and creates the build directory</li>
+<li><code>npm run esdoc</code>: Creates API documentation with <a href="https://esdoc.org">ESDoc</a></li>
+<li><code>npm run watch</code>: Watches code and builds automatically (for development only)</li>
+<li><code>npm start</code>: Runs the application in your default browser (for development only)</li>
+<li><code>npm test</code>: Runs the <a href="https://www.npmjs.com/package/karma-jasmine">karma-jasmine</a> unit tests</li>
+</ul>
+<h2 id="directory-structure">Directory Structure</h2>
+<ul>
+<li>build/<ul>
+<li>app.bundle.js</li>
+</ul>
+</li>
+<li>src/<ul>
+<li>components/<ul>
+<li>component-name/<ul>
+<li>name.component.js</li>
+<li>name.controller.js</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>services/<ul>
+<li>model-name/<ul>
+<li>name.service.js</li>
+</ul>
+</li>
+<li>app.services.module.js</li>
+</ul>
+</li>
+<li>app.config.js</li>
+<li>app.module.js</li>
+</ul>
+</li>
+<li>test/<ul>
+<li>services/<ul>
+<li>model-name/<ul>
+<li>name.service.spec.js</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>app.module.spec.js</li>
+</ul>
+</li>
+<li>index.html</li>
+<li>index.js</li>
+</ul>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

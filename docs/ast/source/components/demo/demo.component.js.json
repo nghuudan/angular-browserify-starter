@@ -1,0 +1,466 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "DemoComponent",
+              "range": [
+                70,
+                83
+              ],
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 13
+                },
+                "end": {
+                  "line": 5,
+                  "column": 26
+                }
+              }
+            },
+            "init": {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "bindings",
+                    "range": [
+                      89,
+                      97
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 9
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "ObjectExpression",
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "key": {
+                          "type": "Identifier",
+                          "name": "chosenDemo",
+                          "range": [
+                            103,
+                            113
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 12
+                            }
+                          }
+                        },
+                        "value": {
+                          "type": "Literal",
+                          "value": "<",
+                          "raw": "'<'",
+                          "range": [
+                            115,
+                            118
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 14
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 17
+                            }
+                          }
+                        },
+                        "kind": "init",
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "range": [
+                          103,
+                          118
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 17
+                          }
+                        }
+                      },
+                      {
+                        "type": "Property",
+                        "key": {
+                          "type": "Identifier",
+                          "name": "demoList",
+                          "range": [
+                            122,
+                            130
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 8,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 8,
+                              "column": 10
+                            }
+                          }
+                        },
+                        "value": {
+                          "type": "Literal",
+                          "value": "<",
+                          "raw": "'<'",
+                          "range": [
+                            132,
+                            135
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 8,
+                              "column": 12
+                            },
+                            "end": {
+                              "line": 8,
+                              "column": 15
+                            }
+                          }
+                        },
+                        "kind": "init",
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "range": [
+                          122,
+                          135
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 8,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      }
+                    ],
+                    "range": [
+                      99,
+                      138
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 11
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 2
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    89,
+                    138
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 2
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "template",
+                    "range": [
+                      141,
+                      149
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 10,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 9
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "TemplateLiteral",
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "value": {
+                          "raw": "\n\t\t<h2>Demo {{$ctrl.chosenDemo.id}}</h2>\n\t\t<ul>\n\t\t\t<li ng-repeat=\"demo in $ctrl.demoList\">\n\t\t\t\t<a ui-sref=\"demoChosen({demoId:demo.id})\">{{demo.name ? demo.name : 'Demo Name'}}</a>\n\t\t\t</li>\n\t\t</ul>\n\t\t<form name=\"demoForm\"\n\t\t\tng-if=\"$ctrl.chosenDemo\">\n\t\t\t<p>\n\t\t\t\t<label for=\"demoName\">Name:</label>\n\t\t\t\t<input id=\"demoName\"\n\t\t\t\t\tname=\"demoName\"\n\t\t\t\t\tng-model=\"$ctrl.chosenDemo.name\"\n\t\t\t\t\ttype=\"text\">\n\t\t\t</p>\n\t\t\t<p>\n\t\t\t\t<label for=\"demoText\">Text:</label>\n\t\t\t\t<input id=\"demoText\"\n\t\t\t\t\tname=\"demoText\"\n\t\t\t\t\tng-model=\"$ctrl.chosenDemo.text\"\n\t\t\t\t\ttype=\"text\">\n\t\t\t</p>\n\t\t\t<a ui-sref=\"demo\">Back to List</a>\n\t\t</form>\n\t",
+                          "cooked": "\n\t\t<h2>Demo {{$ctrl.chosenDemo.id}}</h2>\n\t\t<ul>\n\t\t\t<li ng-repeat=\"demo in $ctrl.demoList\">\n\t\t\t\t<a ui-sref=\"demoChosen({demoId:demo.id})\">{{demo.name ? demo.name : 'Demo Name'}}</a>\n\t\t\t</li>\n\t\t</ul>\n\t\t<form name=\"demoForm\"\n\t\t\tng-if=\"$ctrl.chosenDemo\">\n\t\t\t<p>\n\t\t\t\t<label for=\"demoName\">Name:</label>\n\t\t\t\t<input id=\"demoName\"\n\t\t\t\t\tname=\"demoName\"\n\t\t\t\t\tng-model=\"$ctrl.chosenDemo.name\"\n\t\t\t\t\ttype=\"text\">\n\t\t\t</p>\n\t\t\t<p>\n\t\t\t\t<label for=\"demoText\">Text:</label>\n\t\t\t\t<input id=\"demoText\"\n\t\t\t\t\tname=\"demoText\"\n\t\t\t\t\tng-model=\"$ctrl.chosenDemo.text\"\n\t\t\t\t\ttype=\"text\">\n\t\t\t</p>\n\t\t\t<a ui-sref=\"demo\">Back to List</a>\n\t\t</form>\n\t"
+                        },
+                        "tail": true,
+                        "range": [
+                          151,
+                          767
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 10,
+                            "column": 11
+                          },
+                          "end": {
+                            "line": 35,
+                            "column": 2
+                          }
+                        }
+                      }
+                    ],
+                    "expressions": [],
+                    "range": [
+                      151,
+                      767
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 10,
+                        "column": 11
+                      },
+                      "end": {
+                        "line": 35,
+                        "column": 2
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    141,
+                    767
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 35,
+                      "column": 2
+                    }
+                  }
+                }
+              ],
+              "range": [
+                86,
+                769
+              ],
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 29
+                },
+                "end": {
+                  "line": 36,
+                  "column": 1
+                }
+              }
+            },
+            "range": [
+              70,
+              769
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 13
+              },
+              "end": {
+                "line": 36,
+                "column": 1
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          64,
+          770
+        ],
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 36,
+            "column": 2
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Component for the demo page\n * @type {Object}\n ",
+            "range": [
+              0,
+              56
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 4,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        57,
+        770
+      ],
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Component for the demo page\n * @type {Object}\n ",
+          "range": [
+            0,
+            56
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 4,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "Identifier",
+        "name": "DemoComponent",
+        "range": [
+          787,
+          800
+        ],
+        "loc": {
+          "start": {
+            "line": 38,
+            "column": 15
+          },
+          "end": {
+            "line": 38,
+            "column": 28
+          }
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "range": [
+        772,
+        801
+      ],
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 29
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    57,
+    801
+  ],
+  "loc": {
+    "start": {
+      "line": 5,
+      "column": 0
+    },
+    "end": {
+      "line": 38,
+      "column": 29
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * Component for the demo page\n * @type {Object}\n ",
+      "range": [
+        0,
+        56
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    }
+  ]
+}

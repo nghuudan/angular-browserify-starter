@@ -38,6 +38,3 @@ jspm_packages
 
 # OS
 .DS_Store
-
-# Docs
-esdoc/

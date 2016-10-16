@@ -1,0 +1,1479 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "angular",
+            "range": [
+              7,
+              14
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 14
+              }
+            }
+          },
+          "range": [
+            7,
+            14
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 7
+            },
+            "end": {
+              "line": 1,
+              "column": 14
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "angular",
+        "raw": "'angular'",
+        "range": [
+          20,
+          29
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 20
+          },
+          "end": {
+            "line": 1,
+            "column": 29
+          }
+        }
+      },
+      "range": [
+        0,
+        30
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "angular-ui-router/release/angular-ui-router",
+        "raw": "'angular-ui-router/release/angular-ui-router'",
+        "range": [
+          38,
+          83
+        ],
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 7
+          },
+          "end": {
+            "line": 2,
+            "column": 52
+          }
+        }
+      },
+      "range": [
+        31,
+        84
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "AppConfig",
+            "range": [
+              92,
+              101
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 7
+              },
+              "end": {
+                "line": 3,
+                "column": 16
+              }
+            }
+          },
+          "range": [
+            92,
+            101
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "end": {
+              "line": 3,
+              "column": 16
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./app.config",
+        "raw": "'./app.config'",
+        "range": [
+          107,
+          121
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 22
+          },
+          "end": {
+            "line": 3,
+            "column": 36
+          }
+        }
+      },
+      "range": [
+        85,
+        122
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "AppCtrl",
+            "range": [
+              130,
+              137
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 7
+              },
+              "end": {
+                "line": 4,
+                "column": 14
+              }
+            }
+          },
+          "range": [
+            130,
+            137
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 14
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./components/app/app.controller",
+        "raw": "'./components/app/app.controller'",
+        "range": [
+          143,
+          176
+        ],
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 20
+          },
+          "end": {
+            "line": 4,
+            "column": 53
+          }
+        }
+      },
+      "range": [
+        123,
+        177
+      ],
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "AppComponent",
+            "range": [
+              185,
+              197
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 7
+              },
+              "end": {
+                "line": 5,
+                "column": 19
+              }
+            }
+          },
+          "range": [
+            185,
+            197
+          ],
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 19
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./components/app/app.component",
+        "raw": "'./components/app/app.component'",
+        "range": [
+          203,
+          235
+        ],
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 5,
+            "column": 57
+          }
+        }
+      },
+      "range": [
+        178,
+        236
+      ],
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "DemoComponent",
+            "range": [
+              244,
+              257
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 7
+              },
+              "end": {
+                "line": 6,
+                "column": 20
+              }
+            }
+          },
+          "range": [
+            244,
+            257
+          ],
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 20
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./components/demo/demo.component",
+        "raw": "'./components/demo/demo.component'",
+        "range": [
+          263,
+          297
+        ],
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 60
+          }
+        }
+      },
+      "range": [
+        237,
+        298
+      ],
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "HomeComponent",
+            "range": [
+              306,
+              319
+            ],
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 7
+              },
+              "end": {
+                "line": 7,
+                "column": 20
+              }
+            }
+          },
+          "range": [
+            306,
+            319
+          ],
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
+              "column": 20
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./components/home/home.component",
+        "raw": "'./components/home/home.component'",
+        "range": [
+          325,
+          359
+        ],
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 26
+          },
+          "end": {
+            "line": 7,
+            "column": 60
+          }
+        }
+      },
+      "range": [
+        299,
+        360
+      ],
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "MenuComponent",
+            "range": [
+              368,
+              381
+            ],
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 7
+              },
+              "end": {
+                "line": 8,
+                "column": 20
+              }
+            }
+          },
+          "range": [
+            368,
+            381
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 20
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./components/menu/menu.component",
+        "raw": "'./components/menu/menu.component'",
+        "range": [
+          387,
+          421
+        ],
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 26
+          },
+          "end": {
+            "line": 8,
+            "column": 60
+          }
+        }
+      },
+      "range": [
+        361,
+        422
+      ],
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./services/app.services.module",
+        "raw": "'./services/app.services.module'",
+        "range": [
+          430,
+          462
+        ],
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 39
+          }
+        }
+      },
+      "range": [
+        423,
+        463
+      ],
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 40
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Main module for the application\n * @type {Module}\n ",
+          "range": [
+            465,
+            525
+          ],
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 0
+            },
+            "end": {
+              "line": 14,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "AppModule",
+              "range": [
+                539,
+                548
+              ],
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 13
+                },
+                "end": {
+                  "line": 15,
+                  "column": 22
+                }
+              }
+            },
+            "init": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "CallExpression",
+                              "callee": {
+                                "type": "MemberExpression",
+                                "computed": false,
+                                "object": {
+                                  "type": "CallExpression",
+                                  "callee": {
+                                    "type": "MemberExpression",
+                                    "computed": false,
+                                    "object": {
+                                      "type": "CallExpression",
+                                      "callee": {
+                                        "type": "MemberExpression",
+                                        "computed": false,
+                                        "object": {
+                                          "type": "Identifier",
+                                          "name": "angular",
+                                          "range": [
+                                            551,
+                                            558
+                                          ],
+                                          "loc": {
+                                            "start": {
+                                              "line": 15,
+                                              "column": 25
+                                            },
+                                            "end": {
+                                              "line": 15,
+                                              "column": 32
+                                            }
+                                          }
+                                        },
+                                        "property": {
+                                          "type": "Identifier",
+                                          "name": "module",
+                                          "range": [
+                                            559,
+                                            565
+                                          ],
+                                          "loc": {
+                                            "start": {
+                                              "line": 15,
+                                              "column": 33
+                                            },
+                                            "end": {
+                                              "line": 15,
+                                              "column": 39
+                                            }
+                                          }
+                                        },
+                                        "range": [
+                                          551,
+                                          565
+                                        ],
+                                        "loc": {
+                                          "start": {
+                                            "line": 15,
+                                            "column": 25
+                                          },
+                                          "end": {
+                                            "line": 15,
+                                            "column": 39
+                                          }
+                                        }
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Literal",
+                                          "value": "App",
+                                          "raw": "'App'",
+                                          "range": [
+                                            566,
+                                            571
+                                          ],
+                                          "loc": {
+                                            "start": {
+                                              "line": 15,
+                                              "column": 40
+                                            },
+                                            "end": {
+                                              "line": 15,
+                                              "column": 45
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "ArrayExpression",
+                                          "elements": [
+                                            {
+                                              "type": "Literal",
+                                              "value": "ui.router",
+                                              "raw": "'ui.router'",
+                                              "range": [
+                                                574,
+                                                585
+                                              ],
+                                              "loc": {
+                                                "start": {
+                                                  "line": 15,
+                                                  "column": 48
+                                                },
+                                                "end": {
+                                                  "line": 15,
+                                                  "column": 59
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "type": "Literal",
+                                              "value": "AppServices",
+                                              "raw": "'AppServices'",
+                                              "range": [
+                                                587,
+                                                600
+                                              ],
+                                              "loc": {
+                                                "start": {
+                                                  "line": 15,
+                                                  "column": 61
+                                                },
+                                                "end": {
+                                                  "line": 15,
+                                                  "column": 74
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "range": [
+                                            573,
+                                            601
+                                          ],
+                                          "loc": {
+                                            "start": {
+                                              "line": 15,
+                                              "column": 47
+                                            },
+                                            "end": {
+                                              "line": 15,
+                                              "column": 75
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "range": [
+                                        551,
+                                        602
+                                      ],
+                                      "loc": {
+                                        "start": {
+                                          "line": 15,
+                                          "column": 25
+                                        },
+                                        "end": {
+                                          "line": 15,
+                                          "column": 76
+                                        }
+                                      }
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "name": "config",
+                                      "range": [
+                                        605,
+                                        611
+                                      ],
+                                      "loc": {
+                                        "start": {
+                                          "line": 16,
+                                          "column": 2
+                                        },
+                                        "end": {
+                                          "line": 16,
+                                          "column": 8
+                                        }
+                                      }
+                                    },
+                                    "range": [
+                                      551,
+                                      611
+                                    ],
+                                    "loc": {
+                                      "start": {
+                                        "line": 15,
+                                        "column": 25
+                                      },
+                                      "end": {
+                                        "line": 16,
+                                        "column": 8
+                                      }
+                                    }
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "Identifier",
+                                      "name": "AppConfig",
+                                      "range": [
+                                        612,
+                                        621
+                                      ],
+                                      "loc": {
+                                        "start": {
+                                          "line": 16,
+                                          "column": 9
+                                        },
+                                        "end": {
+                                          "line": 16,
+                                          "column": 18
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "range": [
+                                    551,
+                                    622
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 15,
+                                      "column": 25
+                                    },
+                                    "end": {
+                                      "line": 16,
+                                      "column": 19
+                                    }
+                                  }
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "name": "controller",
+                                  "range": [
+                                    625,
+                                    635
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 17,
+                                      "column": 2
+                                    },
+                                    "end": {
+                                      "line": 17,
+                                      "column": 12
+                                    }
+                                  }
+                                },
+                                "range": [
+                                  551,
+                                  635
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 15,
+                                    "column": 25
+                                  },
+                                  "end": {
+                                    "line": 17,
+                                    "column": 12
+                                  }
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "value": "AppCtrl",
+                                  "raw": "'AppCtrl'",
+                                  "range": [
+                                    636,
+                                    645
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 17,
+                                      "column": 13
+                                    },
+                                    "end": {
+                                      "line": 17,
+                                      "column": 22
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "Identifier",
+                                  "name": "AppCtrl",
+                                  "range": [
+                                    647,
+                                    654
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 17,
+                                      "column": 24
+                                    },
+                                    "end": {
+                                      "line": 17,
+                                      "column": 31
+                                    }
+                                  }
+                                }
+                              ],
+                              "range": [
+                                551,
+                                655
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 25
+                                },
+                                "end": {
+                                  "line": 17,
+                                  "column": 32
+                                }
+                              }
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "component",
+                              "range": [
+                                658,
+                                667
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 18,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 18,
+                                  "column": 11
+                                }
+                              }
+                            },
+                            "range": [
+                              551,
+                              667
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 15,
+                                "column": 25
+                              },
+                              "end": {
+                                "line": 18,
+                                "column": 11
+                              }
+                            }
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "value": "dnApp",
+                              "raw": "'dnApp'",
+                              "range": [
+                                668,
+                                675
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 18,
+                                  "column": 12
+                                },
+                                "end": {
+                                  "line": 18,
+                                  "column": 19
+                                }
+                              }
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "AppComponent",
+                              "range": [
+                                677,
+                                689
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 18,
+                                  "column": 21
+                                },
+                                "end": {
+                                  "line": 18,
+                                  "column": 33
+                                }
+                              }
+                            }
+                          ],
+                          "range": [
+                            551,
+                            690
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 15,
+                              "column": 25
+                            },
+                            "end": {
+                              "line": 18,
+                              "column": 34
+                            }
+                          }
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "component",
+                          "range": [
+                            693,
+                            702
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 19,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 19,
+                              "column": 11
+                            }
+                          }
+                        },
+                        "range": [
+                          551,
+                          702
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 15,
+                            "column": 25
+                          },
+                          "end": {
+                            "line": 19,
+                            "column": 11
+                          }
+                        }
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "value": "dnDemo",
+                          "raw": "'dnDemo'",
+                          "range": [
+                            703,
+                            711
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 19,
+                              "column": 12
+                            },
+                            "end": {
+                              "line": 19,
+                              "column": 20
+                            }
+                          }
+                        },
+                        {
+                          "type": "Identifier",
+                          "name": "DemoComponent",
+                          "range": [
+                            713,
+                            726
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 19,
+                              "column": 22
+                            },
+                            "end": {
+                              "line": 19,
+                              "column": 35
+                            }
+                          }
+                        }
+                      ],
+                      "range": [
+                        551,
+                        727
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 15,
+                          "column": 25
+                        },
+                        "end": {
+                          "line": 19,
+                          "column": 36
+                        }
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "component",
+                      "range": [
+                        730,
+                        739
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 20,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 20,
+                          "column": 11
+                        }
+                      }
+                    },
+                    "range": [
+                      551,
+                      739
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 15,
+                        "column": 25
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 11
+                      }
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "dnHome",
+                      "raw": "'dnHome'",
+                      "range": [
+                        740,
+                        748
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 20,
+                          "column": 12
+                        },
+                        "end": {
+                          "line": 20,
+                          "column": 20
+                        }
+                      }
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "HomeComponent",
+                      "range": [
+                        750,
+                        763
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 20,
+                          "column": 22
+                        },
+                        "end": {
+                          "line": 20,
+                          "column": 35
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    551,
+                    764
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 25
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 36
+                    }
+                  }
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "component",
+                  "range": [
+                    767,
+                    776
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 21,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 11
+                    }
+                  }
+                },
+                "range": [
+                  551,
+                  776
+                ],
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 25
+                  },
+                  "end": {
+                    "line": 21,
+                    "column": 11
+                  }
+                }
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "dnMenu",
+                  "raw": "'dnMenu'",
+                  "range": [
+                    777,
+                    785
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 21,
+                      "column": 12
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 20
+                    }
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "name": "MenuComponent",
+                  "range": [
+                    787,
+                    800
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 21,
+                      "column": 22
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 35
+                    }
+                  }
+                }
+              ],
+              "range": [
+                551,
+                801
+              ],
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 25
+                },
+                "end": {
+                  "line": 21,
+                  "column": 36
+                }
+              }
+            },
+            "range": [
+              539,
+              801
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 13
+              },
+              "end": {
+                "line": 21,
+                "column": 36
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          533,
+          802
+        ],
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 21,
+            "column": 37
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Main module for the application\n * @type {Module}\n ",
+            "range": [
+              465,
+              525
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 0
+              },
+              "end": {
+                "line": 14,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        526,
+        802
+      ],
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 37
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Main module for the application\n * @type {Module}\n ",
+          "range": [
+            465,
+            525
+          ],
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 0
+            },
+            "end": {
+              "line": 14,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "Identifier",
+        "name": "AppModule",
+        "range": [
+          819,
+          828
+        ],
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 15
+          },
+          "end": {
+            "line": 23,
+            "column": 24
+          }
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "range": [
+        804,
+        829
+      ],
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 25
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    829
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 23,
+      "column": 25
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * Main module for the application\n * @type {Module}\n ",
+      "range": [
+        465,
+        525
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 3
+        }
+      }
+    }
+  ]
+}
